@@ -36,6 +36,7 @@ COMPONENTS
 /*HEADER*/
 h1{
     font-weight:700 ;
+    font-size:40px ;
 }
 
 .logo{
@@ -50,7 +51,8 @@ nav ul{
     justify-content: flex-end;
     gap: 30px;
     align-items: center;
-    font-weight:700
+    font-weight:700;
+    font-size:16px ;
     
 }
 
@@ -87,17 +89,19 @@ nav a:hover{
     background-color: rgba(0,0,0,0.75);
     border-radius: 5px;
     padding: 20px 0;
-    margin: 0 340px;
+    margin: 0 260px;
 }
 .hero h2{
     color: white;
     font-weight: 700;
     margin: 0;
+    font-size: 36px;
 }
 .hero p{
     color: #2FCB48;
     font-family: "Roboto", serif;
     font-weight: 400;
+    font-size: 20px;
     margin: 0;
 }
 /*section contenu*/
@@ -110,8 +114,9 @@ article{
     background-color: white;  
     padding: 10px; 
     height: 714px; 
-    border-bottom: 1px;
-    border-color: #0E5EA1;
+    display: flex;
+    flex-direction: column;
+    line-height: 160%;
 }
 article p{
     font-family: "Roboto", serif;
@@ -130,11 +135,35 @@ article a{
 background-color:#B7B7B7; 
 border-radius: 5px;
 padding: 5px 10px;
+font-family:"Dosis", serif ;
+font-weight: 700;
+font-size: 14px;
+margin: 5px 80px;
+display: flex;
+justify-content: center;
 }
 
 article a:hover{
     background-color: #0E5EA1;
     color: white;
 }
-/*aside*/
 
+/*aside*/
+aside{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+/*footer*/
+footer{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-size: 16px;
+    
+}
