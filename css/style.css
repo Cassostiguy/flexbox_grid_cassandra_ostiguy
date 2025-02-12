@@ -134,13 +134,14 @@ article a{
     
 background-color:#B7B7B7; 
 border-radius: 5px;
-padding: 5px 10px;
+padding: 5px 25px;
 font-family:"Dosis", serif ;
 font-weight: 700;
 font-size: 14px;
-margin: 5px 80px;
 display: flex;
 justify-content: center;
+align-self: center;
+margin-top: auto;
 }
 
 article a:hover{
