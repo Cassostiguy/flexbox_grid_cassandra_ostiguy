@@ -23,6 +23,7 @@ body{
     padding: 0;
     margin: 0;
     color: black;
+    background-color: #E3E4E4;
 } 
 
 a{
@@ -49,6 +50,7 @@ nav ul{
     justify-content: flex-end;
     gap: 30px;
     align-items: center;
+    font-weight:700
     
 }
 
@@ -56,7 +58,8 @@ header .wrapper{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 20px 0;
+    padding: 20px 0;
+    background-color: white;
 }
 nav a{
     background-color: white;
@@ -73,6 +76,7 @@ nav a:hover{
     background-image: url(../images/montagnes-alpes.jpg);
     padding: 170px 0;
     background-repeat: no repeat;
+    margin-bottom: 40px;
 }
 .hero .wrapper{
     display: flex;
@@ -99,6 +103,38 @@ nav a:hover{
 /*section contenu*/
 .contenu .wrapper{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 3fr ;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+article{
+    background-color: white;  
+    padding: 10px; 
+    height: 714px; 
+    border-bottom: 1px;
+    border-color: #0E5EA1;
+}
+article p{
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-size: 16px;
 
 }
+
+article h3{
+    font-family:"Dosis", serif;
+    font-weight: 800;
+    font-size: 24px;
+}
+article a{
+    
+background-color:#B7B7B7; 
+border-radius: 5px;
+padding: 5px 10px;
+}
+
+article a:hover{
+    background-color: #0E5EA1;
+    color: white;
+}
+/*aside*/
+
